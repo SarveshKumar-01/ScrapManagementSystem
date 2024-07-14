@@ -1,0 +1,15 @@
+.Navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.NavLogo{
+    padding-left: 30px;
+}
+
+.NavBtns{
+    display: flex;
+    gap: 53px;
+    padding-right: 30px;
+}
+

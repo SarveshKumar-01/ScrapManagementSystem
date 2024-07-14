@@ -1,0 +1,54 @@
+/* styles.css */
+
+.container1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="date"] {
+    padding: 8px;
+  }
+  
+
+  .ComputerBtn {
+    width: 100px; /* Set the width as needed */
+    height: 40px; /* Set the height as needed */
+    border-radius: 12px; /* Rounded corners */
+    border: none; /* Remove default border */
+    background-color: #28a745; /* Green background color */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual depth */
+    margin-top: 20px; /* Add margin to the top */
+}
+
+.ComputerBtn:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.ComputerBtn:active {
+    transform: scale(1); /* Remove enlarge effect on click */
+    background-color: #1e7e34; /* Even darker shade when clicked */
+}

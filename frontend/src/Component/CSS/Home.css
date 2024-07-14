@@ -1,0 +1,43 @@
+.FunctionParent {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* background-color: #f8f9fa; Light background color for the parent container */
+}
+
+.AllFunction {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Increased gap between buttons for better spacing */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff; /* White background for the button container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual depth */
+}
+
+.HomeBtns {
+    width: 220px; /* Slightly increased button width for better visibility */
+    height: 50px;
+    border-radius: 18px;
+    border: none;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+}
+
+.HomeBtns:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.HomeBtns:active {
+    transform: scale(1); /* Remove enlarge effect on click */
+    background-color: #004080; /* Even darker shade when clicked */
+}
